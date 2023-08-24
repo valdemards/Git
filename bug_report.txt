@@ -1,0 +1,42 @@
+Bug Report
+
+Title: Unable to Submit Form on Contact Page
+
+Product: Website XYZ
+Version: 2.3.1
+Environment: Google Chrome 92.0.4515.159 (64-bit), Windows 10
+
+Summary:
+I encountered an issue while trying to submit the contact form on the website. After filling out all the required fields and clicking the "Submit" button, nothing happens. The form doesn't appear to be processing, and I don't receive any confirmation message. This issue seems to be specific to the Google Chrome browser on Windows 10.
+
+Steps to Reproduce:
+Open Google Chrome.
+Navigate to the website's contact page: https://www.example.com/contact.
+Fill in the Name, Email, and Message fields.
+Click the "Submit" button.
+Observe that the form does not submit and no confirmation message appears.
+Expected Behavior: after clicking the "Submit" button, the form should be processed, and a confirmation message should be displayed to indicate that the message was successfully submitted. An email notification should also be sent to the provided email address.
+
+Actual Behavior:
+After clicking the "Submit" button, the form does not seem to submit. No confirmation message is displayed, and I haven't received any email confirmation either.
+
+Additional Information:
+This issue is only observed in Google Chrome; the form submission works fine in Firefox and Edge.
+I've tried clearing the browser cache and cookies, but the issue persists.
+I inspected the browser console for any JavaScript errors, but there are no error messages related to the form submission.
+It's worth noting that I encountered this issue a few weeks ago, and it's still persisting.
+Severity/Impact:
+This issue prevents users from successfully submitting messages through the contact form on the website, which could potentially lead to missed communication or inquiries from users.
+
+Priority:
+Medium - While it's not a critical issue, it's impacting the user experience for a specific browser.
+
+Workaround:
+Users can use alternative browsers like Firefox or Edge to successfully submit the contact form.
+
+Reporter:
+John Doe
+
+
+Date Reported:
+August 24, 2023
