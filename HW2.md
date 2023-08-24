@@ -48,8 +48,7 @@ $ nano checklist.txt
 ***
 8. Запушить структуру на внешний репозиторий
 ```
-$ git add checklist.txt
-$ git commit -m "checklist added"
+$ git commit -am "checklist added"
 $ git push -u origin CheckLists / git push --set-upstream origin CheckLists
  ```
 ***
