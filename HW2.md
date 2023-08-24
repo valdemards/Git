@@ -27,7 +27,7 @@ git push --branches
 ```
 $ git add bug_report.txt
 $ git commit -m "bug reported"
-$ git push --set-upstream origin Bug_reports
+$ git push -u origin Bug_reports  / git push --set-upstream origin Bug_reports
 ```
 ***
 5. Вмержить ветку Bag Reports в Main
@@ -38,8 +38,7 @@ $ git merge Bug_reports
 ***
 6. Запушить main на внешний репозиторий.
 ```
-$ git pull
-$ git push origin
+$ git push
  ```
 ***
 7. В ветке CheckLists набросать структуру чек листа.
@@ -51,7 +50,7 @@ $ nano checklist.txt
 ```
 $ git add checklist.txt
 $ git commit -m "checklist added"
-$ git push --set-upstream origin CheckLists
+$ git push -u origin CheckLists / git push --set-upstream origin CheckLists
  ```
 ***
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
