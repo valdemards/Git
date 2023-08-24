@@ -1,0 +1,13 @@
+Task Checklist
+Bug Update
+- Update the relevant code to fix the bug.
+- Test the bug fix thoroughly on your local environment.
+- Ensure the bug fix doesn't introduce new issues.
+Commit Changes
+- Stage the modified files for commit.
+- Write a clear and concise commit message.
+- Double-check the changes in git diff before committing.
+Pull Remote Changes
+- Pull the latest changes from the remote "main" branch.
+- Handle any merge conflicts that arise.
+- Test the code after merging to ensure everything works as expected.
