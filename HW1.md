@@ -43,8 +43,7 @@ $ nano new.json
 ***
  11. Отправить изменения на внешний репозиторий.
  ```
-$ git add new.json
-$ git commit -m "new_file_updated"
+$ git commit -am "new_file_updated"
 $ git push origin
  ```
 ***
@@ -66,8 +65,7 @@ $ nano skills.json
 ***
  15. Отправить сразу 2 файла на внешний репозиторий.
  ```
-$ git add preferences.json skills.json / git add --all
-$ git commit -m "preferencies and skills"
+$ git commit -am "preferencies and skills"
 $ git push origin
  ```
 ***
@@ -114,8 +112,7 @@ $ nano new.xml
 ***
  28. Отправить изменения на внешний репозиторий.
  ```
-$ git add new.xml
-$ git commit -m "new file updated"
+$ git commit -am "new file updated"
 $ git push origin
  ```
 ***
@@ -137,8 +134,7 @@ $ nano skills.xml
 ***
  32. Сделать коммит в одну строку.
  ```
-$ git add preferences.xml skills.xml
-$ git commit -m "preferencies and skills added"
+$ git commit -am "preferencies and skills added"
  ```
 ***
  33. Отправить сразу 2 файла на внешний репозиторий.

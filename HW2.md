@@ -25,8 +25,7 @@ git push --branches
 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
 4. Запушить структуру багрепорта на внешний репозиторий
 ```
-$ git add bug_report.txt
-$ git commit -m "bug reported"
+$ git commit -am "bug reported"
 $ git push -u origin Bug_reports  / git push --set-upstream origin Bug_reports
 ```
 ***
